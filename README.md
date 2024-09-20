@@ -1,5 +1,5 @@
 <h1>cryptoTracker</h1>
-<p>Ejercicio prueba técnica - Hiumanlab</p><br>
+<p>Ejercicio prueba técnica - Hiumanlab</p>
 <p>Deploy: https://ccoin-tracker.netlify.app/</p>
 
 
