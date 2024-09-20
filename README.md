@@ -1,3 +1,8 @@
+<h1>cryptoTracker</h1>
+<p>Ejercicio prueba técnica - Hiumanlab</p><br>
+<p>Deploy: https://ccoin-tracker.netlify.app/</p>
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
