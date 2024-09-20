@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding:0;
+}
+
+html{
+  scroll-behavior: smooth; 
+  overflow-x: hidden;
+  scroll-padding-top: 70px;
+}
+
+body {
+  padding-top:70px;
+  background-color: #ffffff;
+  font-family: "Fjalla One", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+  
+}
+
+.Header{
+  background-color: #b5b5b6;
+  padding: 10px, 0px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4); 
+  font-family: 'lato',sans-serif;
+  color: #1d1d1f;
+  width: 100vw;
+  height: 64px;
+  z-index: 100;
+}
+
+.Header a{
+  font-size: 1.4rem;
+  color: #1d1d1f;
+  font-family: 'lato',sans-serif;
+  letter-spacing: 1px;
+}
+
+.Header a:hover{
+  font-size: 1.4rem;
+  color: #960a80;
+}
+
+
+/* tarjetas de coins y de news */
+.card {
+  background-color: #dddddd;
+  max-width: 350px;
+  height: 200px;
+  margin: 10px;
+  font-family: 'lato',sans-serif;
+  transition: transform .5s ease;
+  border: none;
+}
+
+.card img{
+  width: 70%;
+  margin: 10px;
+}
+
+.card:hover {
+  box-shadow: 5px 6px 6px 2px rgba(70,70,70, 0.2); 
+  transform: scale(1.03);
+}
+
+.card-news {
+  background-color: #dddddd;
+  width: 350px;
+  height: 350px;
+  margin: 10px auto ;
+  padding: 0px 20px;
+  font-family: 'lato',sans-serif;
+  transition: transform .5s ease;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.card-news:hover {
+  box-shadow: 5px 6px 6px 2px rgba(70,70,70,0.2); 
+  transform: scale(1.03);
+}
+
+/* img de la seccion de News */
+.img-fixed-height {
+  height: 200px; 
+  object-fit: cover;
+  width: 100%;
+  
+}
+
+
+
+/* Pop-up */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* Dark background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px 10px;
+  border-radius: 10px;
+  max-width: 60vw;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.close-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #D11A2A;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background-color: #B3000C;
+}
